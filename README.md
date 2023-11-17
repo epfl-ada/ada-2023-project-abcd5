@@ -29,12 +29,12 @@ In addition to our main CMU movies dataset, we decided to use others in order to
 
 # Methods
 
-#### 1. Reading and cleaning
-Loaded our dataset (small enough  to be able to simply read it on our computer)
-First look at the data: checking for NaN values percentage, removing useless columns (we decided to not use the revenue columns that had  90% of NaN values). Instead, use of IMDB ratings as n indicator of movie success.
+#### 1. Load and clean
+First, load our dataset.
+First look at the data: checking for NaN values percentage, removing useless columns.
 Basic cleaning of the data 
 
-#### 2. Clean and merges
+#### 2. Create datasets
 movie_rating : creating our base final dataset by merging movie_metadata with a cleaned version of IMDB ratings
 movie_ratings_budgets : also created a dataset that will be used to run the analysis on movies' budgets: merging movie_rating with a cleaned version of Kaggle movie_metadata.csv
 name_cluster_analysis : dataset that will be used to compare character names and the ratings of the movies these characters appear in
