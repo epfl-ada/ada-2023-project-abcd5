@@ -1,4 +1,4 @@
-# *Analyzing Film: A Data-driven Perspective on Movies*
+# *Cheat sheat for a perfect movie*
 
 # Abstract
 
