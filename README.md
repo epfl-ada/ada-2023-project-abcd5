@@ -1,4 +1,4 @@
-# *Movie Cheat*
+# *Analyzing Film: A Data-driven Perspective on Movies*
 
 # Abstract
 
