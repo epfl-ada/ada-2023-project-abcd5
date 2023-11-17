@@ -52,10 +52,30 @@ Check for the correlation between the features chosen in in the research questio
 
 
 # Proposed timeline
-
-
-
-
+.
+├── 21.11.22 - Perform deeper data vizualizations
+│  
+├── 23.11.22 - Further analisis of the data 
+│  
+├── 28.11.22 - Pause project work
+│  
+├── 01.12.23 - Homework 2 deadline
+│    
+├── 05.12.22 - Perform final analysis
+│ 
+├── 07.12.22 - Clean the code
+│
+├── 09.12.22 - Clean the comments and the analysis
+│
+├── 12.12.22 - Start the data story with the website
+│  
+├── 15.12.22 - Finish code implementations and visualizations
+│  
+├── 18.12.22 - Finalize data story
+│  
+├── 22.12.22 - Milestone 3 deadline
+│
+.
 # Organization within the team
 <table class="tg" style="undefined;table-layout: fixed; width: 342px">
 <colgroup>
