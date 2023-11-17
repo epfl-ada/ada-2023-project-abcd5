@@ -91,7 +91,7 @@ We use NLP techniques to analyze the movie plots to determine what makes a good 
     <td class="tg-0lax">Release Date Analysis<br><br>Visualizations<br><br>Develop Web Interface</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Asama Hyder</td>
+    <td class="tg-0lax">Asama Hayder</td>
     <td class="tg-0lax">Plot Summary Analysis<br><br>Visualizations<br><br>Develop Web Interface</td>
   </tr>
   <tr>
