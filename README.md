@@ -12,7 +12,7 @@ We also hope that our findings will inspire creative minds in the industry when 
 * Does release date have an influence? If yes, when is it best to release a movie? Does it have a link with the genre? 
 * Can we make a successful movie with a low budget? Or is budget a relevant factor of success?
 * Could the availability of a movie in mutliple languages impact its success? What about its availability in English?
-* Do peole enjoy sequels? Do film with more sequels have bettter popularity than others with no or less sequels?
+* Does the apparition of a character name more than once affect how much a viewer will get attached to a movie and thus rate it higher?
 
 
 # Proposed additional datasets
@@ -22,7 +22,7 @@ In addition to our main CMU movies dataset, we decided to use tohers in order to
 
 * A dataset from Kaggle for the budgets https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?resource=download&select=movies_metadata.csv : we merge our dataset the movie_metadata.csv file that contains the budgets
 
-* A dataset from IMDB for the ratings https://developer.imdb.com/non-commercial-datasets/ : we merge our dataset with the title.ratings.tsv file
+* A dataset from IMDB for the ratings IMDB Ratings https://developer.imdb.com/non-commercial-datasets/ : we merge our dataset with the title.ratings.tsv file
 
 * A dataset of a mapping from Freebase ID to IMDB ID https://query.wikidata.org/#PREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0A%0ASELECT%20%3Fitem%20%3FfreebaseID%20%3FimdbID%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ11424.%0A%20%20%3Fitem%20wdt%3AP646%20%3FfreebaseID.%0A%20%20%3Fitem%20wdt%3AP345%20%3FimdbID.%0A%20%20%7D : we needed that dataset in order to merge IMDB ratings with our Freebase ID identified movies
 [Kaggle](https://query.wikidata.org/#PREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0A%0ASELECT%20%3Fitem%20%3FfreebaseID%20%3FimdbID%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ11424.%0A%20%20%3Fitem%20wdt%3AP646%20%3FfreebaseID.%0A%20%20%3Fitem%20wdt%3AP345%20%3FimdbID.%0A%20%20%7D)
@@ -44,6 +44,41 @@ movie_ratings_budgets : also created a dataset that will be used to run the anal
 
 
 
+
 # Organization within the team
+<table class="tg" style="undefined;table-layout: fixed; width: 342px">
+<colgroup>
+<col style="width: 164px">
+<col style="width: 178px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-0lax"></th>
+    <th class="tg-0lax">Tasks</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Camille Valat</td>
+    <td class="tg-0lax">Language and Country Analysis<br><br>Visualisations<br><br>Develop Milestone 3</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Victoria Arduini</td>
+    <td class="tg-0lax">Budget Analysis<br><br>Visualisations<br><br>Develop Milestone 3</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ilyaas Shousha</td>
+    <td class="tg-0lax">Release Date Analysis<br><br>Visualisations<br><br>Develop Milestone 3</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Asama Hyder</td>
+    <td class="tg-0lax"><br>Plot Summary Analysis<br>Visualisations<br><br>Develop Milestone 3</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Anna Yildiran</td>
+    <td class="tg-0lax">Character Name Analysis<br><br>Visualisations<br><br>Develop Milestone 3</td>
+  </tr>
+</tbody>
+</table>
 
 
