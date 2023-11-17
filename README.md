@@ -39,13 +39,13 @@ movie_rating : creating our base final dataset by merging movie_metadata with a 
 movie_ratings_budgets : also created a dataset that will be used to run the analysis on movies' budgets: merging movie_rating with a cleaned version of Kaggle movie_metadata.csv
 name_cluster_analysis : dataset that will be used to compare character names and the ratings of the movies these characters appear in
 
-#### 4. Data visualization
+#### 3. Data visualization
 After having cleaned the data, initial plotting of the features which each potentially alter the movie ratings: checking to see if the research questions are feasible, checking for trends, deciding what further analysis is necessary to conduct for our research questions.
 
-#### 5. Linear Regression
+#### 4. Linear Regression
 Check for the correlation between the features chosen in in the research questions and see how the movie ratings are consequentially affected.
 
-#### 6. Natural Process Learning
+#### 5. Natural Process Learning
   #Maybe Asama can describe how he'll use this method or how it works
 
 
@@ -53,17 +53,17 @@ Check for the correlation between the features chosen in in the research questio
 
 # Proposed timeline
 
-- `21.11.22` - Perform deeper data visualizations
-- `23.11.22` - Further analysis of the data
-- `28.11.22` - Pause project work
+- `21.11.23` - Perform deeper data visualizations
+- `23.11.23` - Further analysis of the data
+- `28.11.23` - Pause project work
 - `01.12.23` - Homework 2 deadline
-- `05.12.22` - Perform final analysis
-- `07.12.22` - Clean the code
-- `09.12.22` - Clean the comments and the analysis
-- `12.12.22` - Start the data story with the website
-- `15.12.22` - Finish code implementations and visualizations
-- `18.12.22` - Finalize data story
-- `22.12.22` - Milestone 3 deadline
+- `05.12.23` - Perform final analysis
+- `07.12.23` - Clean the code
+- `09.12.23` - Clean the comments and the analysis
+- `12.12.23` - Start the data story with the website
+- `15.12.23` - Finish code implementations and visualizations
+- `18.12.23` - Finalize data story
+- `22.12.23` - Milestone 3 deadline
 
 # Organization within the team
 <table class="tg" style="undefined;table-layout: fixed; width: 342px">
