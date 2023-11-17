@@ -52,7 +52,6 @@ Check for the correlation between the features chosen in in the research questio
 
 
 # Proposed timeline
-# Proposed timeline
 
 - `21.11.22` - Perform deeper data visualizations
 - `23.11.22` - Further analysis of the data
