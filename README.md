@@ -11,7 +11,7 @@ We also hope that our findings will inspire creative minds in the industry when 
 * What makes a good movie plot? 
 * Does release date have an influence? If yes, when is it best to release a movie? Does it have a link with the genre? 
 * Can we make a successful movie with a low budget? Or is budget a relevant factor of success?
-* Could the availability of a movie in mutliple languages impact its success? What about its country of origin?
+* Could the availability of a movie in mutliple languages impact its success? What about its availability in English?
 * Do peole enjoy sequels? Do film with more sequels have bettter popularity than others with no or less sequels?
 
 
@@ -25,6 +25,8 @@ In addition to our main CMU movies dataset, we decided to use tohers in order to
 * A dataset from IMDB for the ratings https://developer.imdb.com/non-commercial-datasets/ : we merge our dataset with the title.ratings.tsv file
 
 * A dataset of a mapping from Freebase ID to IMDB ID https://query.wikidata.org/#PREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0A%0ASELECT%20%3Fitem%20%3FfreebaseID%20%3FimdbID%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ11424.%0A%20%20%3Fitem%20wdt%3AP646%20%3FfreebaseID.%0A%20%20%3Fitem%20wdt%3AP345%20%3FimdbID.%0A%20%20%7D : we needed that dataset in order to merge IMDB ratings with our Freebase ID identified movies
+[Kaggle](https://query.wikidata.org/#PREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0A%0ASELECT%20%3Fitem%20%3FfreebaseID%20%3FimdbID%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ11424.%0A%20%20%3Fitem%20wdt%3AP646%20%3FfreebaseID.%0A%20%20%3Fitem%20wdt%3AP345%20%3FimdbID.%0A%20%20%7D)
+
 
 # Methods
 
