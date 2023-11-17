@@ -1,4 +1,4 @@
-# *Cheat sheat for a perfect movie*
+# *Cheat sheet for a perfect movie*
 
 # Abstract
 
