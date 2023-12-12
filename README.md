@@ -2,7 +2,7 @@
 
 # Abstract
 
-In an age where TV popularity is rapidly increasing, what would compel a viewer to sit down after a long day of work and enthusiastically watch a film instead of just having a tv show episode playing in the background as noise? We aim to find out what makes a movie desirable and what factors are effective in determining the IMDB rating as well as the popularity of a movie. 
+In an age where TV popularity is rapidly increasing, what would compel a viewer to sit down after a long day of work and enthusiastically watch a film? We aim to find out what makes a movie desirable and what factors are effective in determining the IMDB rating, which in our case corresponds to the success, of a movie. 
 We also hope that our findings will inspire creative minds in the industry when making decisions for new projects. What subjects should film writers focus on? What type of actors should directors be casting? Which types of films should producers invest their money in? 
 
 # Research questions
