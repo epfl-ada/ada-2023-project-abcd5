@@ -12,12 +12,19 @@ Since the year 2000, the number of movies released in the UK as well as the US m
 # Research Questions
 
 In this project, we are trying to find what features affect a movie's rating, and to do so we have decided to focus on the following questions:
+
 •	How the language of a movie impact its success? What about the use of English compared to other languages?
+
 •	Does the apparition of a character name more than once affect how much a viewer will get attached to a movie and thus rate it higher?
+
 •	Does release date have an influence? If yes, when is it best to release a movie? Does it have a link with the genre ?
+
 •	What makes a good movie plot?
+
 •	Can we make a successful movie with a low budget? Or is budget a relevant factor of success?
+
 •	Do viewers enjoy seeing character stereotypes in a movie? Does their presence have an influence on a movie’s success?
+
 
 # Additional Datasets
 
@@ -54,17 +61,18 @@ We use NLP techniques to analyze the movie plots to determine what makes a good 
 
 # Proposed timeline
 
-- '05.11.23' : Data preprocessing and dataset creation
-- '15.11.23' : First analysis
-- '17.11.23' : Milestone 2 deadline
-- '01.12.23' : Pause to work on Homework 2
-- '05.12.23' : Further analysis on each research questions
-- '10.12.23' : Draft for the data story
-- '12.12.23' : Final analysis and conclusions on each research questions
-- '13.12.23' : Clean the notebook (code and comments)
-- '18.12.23' : Finalize data story
-- '20.12.23' : Update the readme
-- '22.12.23' : Milestone 3 deadline
+*   05.11.23 : Data preprocessing and dataset creation
+*   15.11.23 : First analysis
+*   17.11.23 : Milestone 2 deadline
+*   01.12.23 : Pause to work on Homework 2
+*   05.12.23 : Further analysis on each research questions
+*   10.12.23 : Draft for the data story
+*   12.12.23 : Final analysis and conclusions on each research questions
+*   13.12.23 : Clean the notebook (code and comments)
+*   18.12.23 : Finalize data story
+*   20.12.23 : Update the readme
+*   22.12.23 : Milestone 3 deadline
+
 
 
 # Organization within the team
