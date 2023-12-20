@@ -3,7 +3,7 @@
 
 # Data Story 
 
-Explore the narrative behind the development of our cheat sheet by following this link to access our [data story](camillevalat.github.io/Abcd5-website/).
+Explore the narrative behind the development of our cheat sheet by following this link to access our [data story](https://camillevalat.github.io/Abcd5-website/).
 
 # Abstract
 
