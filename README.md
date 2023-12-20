@@ -1,31 +1,33 @@
 # ✨✨*Cheat sheet for a perfect movie*✨✨
 
+
+# Data Story 
+
+Explore the narrative behind the development of our cheat sheet by following this link to access our [data story](camillevalat.github.io/Abcd5-website/).
+
 # Abstract
 
-In an age where TV popularity is rapidly increasing, what would compel a viewer to sit down after a long day of work and enthusiastically watch a film? We aim to find out what makes a movie desirable and what factors are effective in determining the IMDB rating, which in our case corresponds to the success, of a movie. 
-We also hope that our findings will inspire creative minds in the industry when making decisions for new projects. What subjects should film writers focus on? What type of actors should directors be casting? Which types of films should producers invest their money in? 
+Since the year 2000, the number of movies released in the UK as well as the US more than doubled. While the industry is rapidly growing, a significant proportion of movies continue to fall short of achieving significant recognition or commercial success. This proves that making a successful movie is a far more intricate process than it appears. While this seems to be a daunting task, separating it into smaller and simpler parts will put things into perspective. The CMU dataset contains data on more than 80’000 movies and with that, we will try to depict a cheat sheet for a perfect movie.
 
-# Research questions
+# Research Questions
+
 In this project, we are trying to find what features affect a movie's rating, and to do so we have decided to focus on the following questions:
+•	How the language of a movie impact its success? What about the use of English compared to other languages?
+•	Does the apparition of a character name more than once affect how much a viewer will get attached to a movie and thus rate it higher?
+•	Does release date have an influence? If yes, when is it best to release a movie? Does it have a link with the genre ?
+•	What makes a good movie plot?
+•	Can we make a successful movie with a low budget? Or is budget a relevant factor of success?
+•	Do viewers enjoy seeing character stereotypes in a movie? Does their presence have an influence on a movie’s success?
 
-* What makes a good movie plot? 
-* Does release date have an influence? If yes, when is it best to release a movie? Does it have a link with the genre? 
-* Can we make a successful movie with a low budget? Or is budget a relevant factor of success?
-* Could the availability of a movie in mutliple languages impact its success? What about its availability in English?
-* Does the apparition of a character name more than once affect how much a viewer will get attached to a movie and thus rate it higher?
-
-
-# Proposed additional datasets
+# Additional Datasets
 
 In addition to our main CMU movies dataset, we decided to use others in order to be able to properly answer our questions:
 
-* A dataset from Kaggle for the [budgets](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?resource=download&select=movies_metadata.csv) : we merge our dataset the movie_metadata.csv file that contains the budgets
+•	[**Freebase ID to IMDB ID**](https://query.wikidata.org/#PREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0A%0ASELECT%20%3Fitem%20%3FfreebaseID%20%3FimdbID%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ11424.%0A%20%20%3Fitem%20wdt%3AP646%20%3FfreebaseID.%0A%20%20%3Fitem%20wdt%3AP345%20%3FimdbID.%0A%20%20%7D) : a dataset of a mapping from Freebase ID to IMDb ID. We merge the query.tsv dataset with the movie_metadata one on Freebase ID. We need this dataset to be able to  to merge the IMDb ratings dataset and the budget dataset (both identified by IMDb ID) with our Freebase ID identified movies from the CMU dataset.
 
-* A dataset from IMDB for the ratings [IMDB Ratings](https://developer.imdb.com/non-commercial-datasets/) : we merge our dataset with the title.ratings.tsv file
+•	[**IMDb Ratings**](https://developer.imdb.com/non-commercial-datasets/) : a dataset from IMDb for the movies’ ratings . We merge the ratings.tsv dataset with our dataset from CMU on IMDb ID.
 
-* A dataset of a mapping from [Freebase ID to IMDB ID](https://query.wikidata.org/#PREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0A%0ASELECT%20%3Fitem%20%3FfreebaseID%20%3FimdbID%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ11424.%0A%20%20%3Fitem%20wdt%3AP646%20%3FfreebaseID.%0A%20%20%3Fitem%20wdt%3AP345%20%3FimdbID.%0A%20%20%7D) : we needed that dataset in order to merge IMDB ratings with our Freebase ID identified movies
-[Kaggle](https://query.wikidata.org/#PREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0A%0ASELECT%20%3Fitem%20%3FfreebaseID%20%3FimdbID%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ11424.%0A%20%20%3Fitem%20wdt%3AP646%20%3FfreebaseID.%0A%20%20%3Fitem%20wdt%3AP345%20%3FimdbID.%0A%20%20%7D)
-
+•	[**Budgets**](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?resource=download&select=movies_metadata.csv) : a dataset from Kaggle for the budgets . We merge the dataset from Kaggle (only keeping budget and IMDb ID columns) with our dataset from CMU on IMDb ID.
 
 # Methods
 
@@ -50,20 +52,20 @@ We use NLP techniques to analyze the movie plots to determine what makes a good 
 
 
 
-
 # Proposed timeline
 
-- `21.11.23` - Perform deeper data visualizations
-- `23.11.23` - Further analysis of the data
-- `28.11.23` - Pause project work
-- `01.12.23` - Homework 2 deadline
-- `05.12.23` - Perform final analysis
-- `07.12.23` - Clean the code
-- `09.12.23` - Clean the comments and the analysis
-- `12.12.23` - Start the data story with the website
-- `15.12.23` - Finish code implementations and visualizations
-- `18.12.23` - Finalize data story
-- `22.12.23` - Milestone 3 deadline
+- '05.11.23' : Data preprocessing and dataset creation
+- '15.11.23' : First analysis
+- '17.11.23' : Milestone 2 deadline
+- '01.12.23' : Pause to work on Homework 2
+- '05.12.23' : Further analysis on each research questions
+- '10.12.23' : Draft for the data story
+- '12.12.23' : Final analysis and conclusions on each research questions
+- '13.12.23' : Clean the notebook (code and comments)
+- '18.12.23' : Finalize data story
+- '20.12.23' : Update the readme
+- '22.12.23' : Milestone 3 deadline
+
 
 # Organization within the team
 <table class="tg" style="undefined;table-layout: fixed; width: 342px">
