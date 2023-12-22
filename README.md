@@ -106,23 +106,23 @@ We use NLP techniques to analyze the movie plots to determine what makes a good 
 <tbody>
   <tr>
     <td class="tg-0lax">Camille Valat</td>
-    <td class="tg-0lax">Language and Country Analysis<br><br>Visualizations<br><br>Develop Web Interface</td>
+    <td class="tg-0lax">Language and Country Analysis<br><br>Write Datastory<br><br>Develop Website</td>
   </tr>
   <tr>
     <td class="tg-0lax">Victoria Arduini</td>
-    <td class="tg-0lax">Budget Analysis<br><br>Visualizations<br><br>Develop Web Interface</td>
+    <td class="tg-0lax">Budget Analysis<br><br>Write Datastory<br><br>Develop Website</td>
   </tr>
   <tr>
     <td class="tg-0lax">Ilyaas Shousha</td>
-    <td class="tg-0lax">Release Date Analysis<br><br>Visualizations<br><br>Develop Web Interface</td>
+    <td class="tg-0lax">Release Date Analysis<br><br>Write Datastory<br><br>Develop Web Interface</td>
   </tr>
   <tr>
     <td class="tg-0lax">Asama Hayder</td>
-    <td class="tg-0lax">Plot Summary Analysis<br><br>Visualizations<br><br>Develop Web Interface</td>
+    <td class="tg-0lax">Plot Summary Analysis<br><br>Write Datastory<br><br>Develop Web Interface</td>
   </tr>
   <tr>
     <td class="tg-0lax">Anna Yildiran</td>
-    <td class="tg-0lax">Character Name Analysis<br><br>Visualizations<br><br>Develop Web Interface</td>
+    <td class="tg-0lax">Character Name Analysis<br><br>Character Types Analysis<br><br>Write Datastory<br><br>Develop Website</td>
   </tr>
 </tbody>
 </table>
