@@ -63,7 +63,9 @@ To assess the influence of English on movies, we split films into two categories
 ### Step 7. Character type
 
 
-old ones: ??
+old ones: 
+
+need to keep??
 #### 3. Data visualization
 After having cleaned the data, initial plotting of the features which each potentially alter the movie ratings: checking to see if the research questions are feasible, checking for trends, deciding what further analysis is necessary to conduct for our research questions.
 
@@ -72,6 +74,7 @@ Check for the correlation between the features chosen in in the research questio
 
 #### 5. Natural Process Learning (NLP)
 We use NLP techniques to analyze the movie plots to determine what makes a good plot in terms of predicting a good average rating. We start by preproccessing the plots by removing special characters, removing stop words and lemmatizing/stemming words. We then created a bag-of-words matrix and trained a linear-regression model with average movie rating as target. We then looked at the cooeficient for each word to determine the importance of each words in regards to the average movie rating. Next steps are to use more data, more complex models like introducing regression or training neural nets. We will also explore word embeddings as an alternative to bag-of-words and then finally properly test the models and see if it is possible to determine if a plot can predict a movie rating.
+
 ??
 
 
