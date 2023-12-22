@@ -65,6 +65,7 @@ First, we initiated our process by filtering out the data lacking information on
 Once the data was meticulously cleaned, we embarked on our analysis utilizing line graphs and heatmaps to uncover insights and patterns.
 
 ### Step 5. Movie plots
+We use natural language processing to analyse the movie plots. We start by loading and preparing the movie plot data by performing preproccessing steps like: converting text to lowercase, removing punctuation, removing numbers, removing stopwords and lemmatizing. Then we postprocess the text by tokenizing and creating a term frequency matrix. For the analysis we perform latent dirichlet analysis, and inspect the generated topics.
 
 ### Step 6. Budgets
 
