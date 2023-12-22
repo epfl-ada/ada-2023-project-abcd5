@@ -54,6 +54,10 @@ To assess the influence of English on movies, we split films into two categories
 	
 ### Step 3. Character name
 
+Initially, we analysed the effect of the presence of a character across multiple films by computing the average weighted score for each character name based on their presence in multiple movies. We then used linear regression to fit the data to see the trend our data produced.
+
+Next,  our focus shifted to investigating the influence of movie sequels on ratings. Assuming that movies featuring the same character name played by the same actor constituted sequels, we charted the mean weighted scores against the quantity of sequels.  We once again used linear regression to analyse the trend.
+
 ### Step 4. Genre and release date
 
 ### Step 5. Movie plots
@@ -62,15 +66,13 @@ To assess the influence of English on movies, we split films into two categories
 
 ### Step 7. Character type
 
+We began by examining how different character types influence movie ratings. Initially, we grouped the data by character type, computing the average weighted scores for each category. To further this analysis, we separated the character types by gender and analysed this impact through visual plots.
+We also explored which character type associates best with which genre. Finally, we used the OLS method in linear regression,we employed the OLS method in linear regression, to  help us determine whether character names or character types have a stronger influence on a movie's rating.
+
+
 
 old ones: 
-
 need to keep??
-#### 3. Data visualization
-After having cleaned the data, initial plotting of the features which each potentially alter the movie ratings: checking to see if the research questions are feasible, checking for trends, deciding what further analysis is necessary to conduct for our research questions.
-
-#### 4. Linear Regression
-Check for the correlation between the features chosen in in the research questions and see how the movie ratings are consequentially affected.
 
 #### 5. Natural Process Learning (NLP)
 We use NLP techniques to analyze the movie plots to determine what makes a good plot in terms of predicting a good average rating. We start by preproccessing the plots by removing special characters, removing stop words and lemmatizing/stemming words. We then created a bag-of-words matrix and trained a linear-regression model with average movie rating as target. We then looked at the cooeficient for each word to determine the importance of each words in regards to the average movie rating. Next steps are to use more data, more complex models like introducing regression or training neural nets. We will also explore word embeddings as an alternative to bag-of-words and then finally properly test the models and see if it is possible to determine if a plot can predict a movie rating.
