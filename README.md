@@ -60,6 +60,10 @@ Next,  our focus shifted to investigating the influence of movie sequels on rati
 
 ### Step 4. Genre and release date
 
+First, we initiated our process by filtering out the data lacking information on the release month. Subsequently, we focused our analysis on the top 20 most popular genres, a strategy aimed at reducing the impact of anomalous scores associated with less common genres.
+
+Once the data was meticulously cleaned, we embarked on our analysis utilizing line graphs and heatmaps to uncover insights and patterns.
+
 ### Step 5. Movie plots
 
 ### Step 6. Budgets
