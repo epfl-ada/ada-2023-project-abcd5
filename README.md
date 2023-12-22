@@ -63,16 +63,7 @@ To assess the influence of English on movies, we split films into two categories
 ### Step 7. Character type
 
 
-#### 1. Load and clean
-First, load our dataset.
-First look at the data: checking for NaN values percentage, removing useless columns.
-Basic cleaning of the data 
-
-#### 2. Create datasets
-movie_rating : creating our base final dataset by merging movie_metadata with a cleaned version of IMDB ratings
-movie_ratings_budgets : also created a dataset that will be used to run the analysis on movies' budgets: merging movie_rating with a cleaned version of Kaggle movie_metadata.csv
-name_cluster_analysis : dataset that will be used to compare character names and the ratings of the movies these characters appear in
-
+old ones: ??
 #### 3. Data visualization
 After having cleaned the data, initial plotting of the features which each potentially alter the movie ratings: checking to see if the research questions are feasible, checking for trends, deciding what further analysis is necessary to conduct for our research questions.
 
@@ -81,7 +72,7 @@ Check for the correlation between the features chosen in in the research questio
 
 #### 5. Natural Process Learning (NLP)
 We use NLP techniques to analyze the movie plots to determine what makes a good plot in terms of predicting a good average rating. We start by preproccessing the plots by removing special characters, removing stop words and lemmatizing/stemming words. We then created a bag-of-words matrix and trained a linear-regression model with average movie rating as target. We then looked at the cooeficient for each word to determine the importance of each words in regards to the average movie rating. Next steps are to use more data, more complex models like introducing regression or training neural nets. We will also explore word embeddings as an alternative to bag-of-words and then finally properly test the models and see if it is possible to determine if a plot can predict a movie rating.
-
+??
 
 
 # Proposed timeline
