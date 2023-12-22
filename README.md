@@ -40,11 +40,9 @@ In addition to our main CMU movies dataset, we decided to use others in order to
 
 ### Step 1. Preprocessing and dataset construction
 
-*   Preprocessing: 
-We load and clean the CMU datasets, checking for NaN values and removing or cleaning columns (For example, we removed the ‘revenue’ column of movie_metadata as 87% of it was NaN values)
+**Preprocessing**: We load and clean the CMU datasets, checking for NaN values and removing or cleaning columns (For example, we removed the ‘revenue’ column of movie_metadata as 87% of it was NaN values)
 
-*   Datasets construction: 
-We create our dataset for our future analysis by combining thr CMU ones with the additional ones:
+**Datasets construction**: We create our dataset for our future analysis by combining thr CMU ones with the additional ones:
 -	movie_rating : creating our base final dataset by merging movie_metadata with a cleaned version of IMDB ratings
 -	movie_ratings_budgets : the dataset to be used to run the analysis on budgets, created by merging movie_rating with a cleaned version of Kaggle movie_metadata.csv
 -	name_cluster_analysis : the dataset to be used to run analysis on character names, created by merging movie_rating, character_metadata and name_clusters.
