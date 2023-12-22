@@ -38,6 +38,33 @@ In addition to our main CMU movies dataset, we decided to use others in order to
 
 # Methods
 
+### Step 1. Preprocessing and dataset construction
+
+*   Preprocessing: 
+We load and clean the CMU datasets, checking for NaN values and removing or cleaning columns (For example, we removed the ‘revenue’ column of movie_metadata as 87% of it was NaN values)
+
+*   Datasets construction: 
+We create our dataset for our future analysis by combining thr CMU ones with the additional ones:
+-	movie_rating : creating our base final dataset by merging movie_metadata with a cleaned version of IMDB ratings
+-	movie_ratings_budgets : the dataset to be used to run the analysis on budgets, created by merging movie_rating with a cleaned version of Kaggle movie_metadata.csv
+-	name_cluster_analysis : the dataset to be used to run analysis on character names, created by merging movie_rating, character_metadata and name_clusters.
+-	Tropes: the dataset to be used to run analysis on character tropes, created by merging a cleaned version of tropes.csv with name_cluster_analysis.
+
+### Step 2. Language 
+
+To assess the influence of English on movies, we split films into two categories: those not in English language and those in English along with at least one other language. We made initial visualizations to examine these categories. To determine if there was a statistically significant difference in scores between the two groups, we used the Mann-Whitney U test. For a deeper analysis, we also performed subgroup analyses within different movie genres.
+	
+### Step 3. Character name
+
+### Step 4. Genre and release date
+
+### Step 5. Movie plots
+
+### Step 6. Budgets
+
+### Step 7. Character type
+
+
 #### 1. Load and clean
 First, load our dataset.
 First look at the data: checking for NaN values percentage, removing useless columns.
