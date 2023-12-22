@@ -65,9 +65,12 @@ First, we initiated our process by filtering out the data lacking information on
 Once the data was meticulously cleaned, we embarked on our analysis utilizing line graphs and heatmaps to uncover insights and patterns.
 
 ### Step 5. Movie plots
+
 We use natural language processing to analyse the movie plots. We start by loading and preparing the movie plot data by performing preproccessing steps like: converting text to lowercase, removing punctuation, removing numbers, removing stopwords and lemmatizing. Then we postprocess the text by tokenizing and creating a term frequency matrix. For the analysis we perform latent dirichlet analysis, and inspect the generated topics.
 
 ### Step 6. Budgets
+
+Initially, we began with basic data visualizations (printing statistics, plotting disitrbutions). Next, we examined the correlation between a film's budget and its release year, as well as the relationship between a film's budget and its rating. Those analysis are conducted using both visualization tools and linear regression methods. Finally, we investigated how movie budgets vary across different genres. For that, we applied linear regression to analyze the connection between budget and score within each of the top 20 movie genres.
 
 ### Step 7. Character type
 
