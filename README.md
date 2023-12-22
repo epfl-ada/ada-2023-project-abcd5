@@ -117,11 +117,11 @@ We use NLP techniques to analyze the movie plots to determine what makes a good 
   </tr>
   <tr>
     <td class="tg-0lax">Ilyaas Shousha</td>
-    <td class="tg-0lax">Release Date Analysis<br><br>Write Datastory<br><br>Develop Web Interface</td>
+    <td class="tg-0lax">Release Date Analysis<br><br>Write Datastory</td>
   </tr>
   <tr>
     <td class="tg-0lax">Asama Hayder</td>
-    <td class="tg-0lax">Plot Summary Analysis<br><br>Write Datastory<br><br>Develop Web Interface</td>
+    <td class="tg-0lax">Plot Summary Analysis<br><br>Write Datastory</td>
   </tr>
   <tr>
     <td class="tg-0lax">Anna Yildiran</td>
